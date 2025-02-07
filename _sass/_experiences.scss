@@ -1,0 +1,35 @@
+/* Experiences Section */
+.experience-gallery {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    align-items: flex-start;
+    gap: 20px; /* Spacing between images */
+    flex-wrap: nowrap; /* Prevent wrapping onto a new row */
+    margin-top: 20px;
+}
+
+.experience-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.experience-item img {
+    width: 100%; /* Adjusts image size */
+    height: 250px;
+    object-fit: contain;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience-item img:hover {
+    transform: scale(1.05);
+}
+
+.experience-item p {
+    margin-top: 10px;
+    font-size: inherit;  /* Inherit font size from parent, usually set by theme */
+    font-family: inherit;  /* Inherit font family from theme */
+    color: inherit;
+    line-height: 1.0;
+}

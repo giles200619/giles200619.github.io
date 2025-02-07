@@ -35,6 +35,15 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        
+        <!-- Social -->
+       {% if page.social %}
+         <div class="social">
+	   <div class="contact-icons">{% include social.liquid %}</div>
+
+	   <div class="contact-note">{{ site.contact_note }}</div>
+         </div>
+       {% endif %}
       </div>
     {% endif %}
 
@@ -43,7 +52,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -59,19 +68,35 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+    
+    <!-- Experiences -->
+    <h2>
+        <a style="color: inherit">Experiences</a>
+    </h2>
+    <div class="experience-gallery">
+    <div class="experience-item">
+        <img src="{{ '/assets/img/NVIDIA.jpg' | relative_url }}" alt="Experience 1">
+        <p>NVIDIA</p>
+        <p>CloudXR Intern</p>
+        <p>June, 2024 - Jan., 2025</p>
+    </div>
+    <div class="experience-item">
+        <img src="{{ '/assets/img/SRA.png' | relative_url }}" alt="Experience 2">
+        <p>Samsung Research America</p>
+        <p>Research Scientist Intern</p>
+        <p>June, 2023 - Dec., 2024</p>
+    </div>
+    <div class="experience-item">
+        <img src="{{ '/assets/img/apple.jpg' | relative_url }}" alt="Experience 3">
+        <p>Apple</p>
+        <p>Special Project Group Intern</p>
+        <p>May, 2021 - Aug., 2021</p>
+    </div>
+</div>
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
