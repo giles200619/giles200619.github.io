@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. student in [Computer Science at the University of Minnesota](https://cse.umn.edu/cs), advised by [Prof. Volkan Isler](https://www.cs.utexas.edu/~isler/) in the [RSN lab](https://rsn.cs.utexas.edu/). My research interest is at the intersection of computer vision and robotics, focusing on problems related to 3D perception and scene understanding. Specifically, I have worked on projects involving novel view synthesis, camera pose estimation, 3D reconstruction and scene completion with generative AI. More recently, I worked on modeling dynamic objects. 
+I am a Ph.D. student in [Computer Science at the University of Minnesota](https://cse.umn.edu/cs), advised by [Prof. Volkan Isler](https://www.cs.utexas.edu/~isler/) in the [RSN lab](https://rsn.cs.utexas.edu/). My research interest lies in the intersection of computer vision and robotics, focusing on problems related to 3D perception and scene understanding. Specifically, I have worked on projects involving novel view synthesis, camera pose estimation, 3D reconstruction and scene completion with generative AI. More recently, I worked on modeling dynamic objects. 
 
 
 I hold a M.S. in [Computer Science](https://cse.umn.edu/cs) from the University of Minnesota and a B.S. in [Biomechatronics Engineering](https://www.bime.ntu.edu.tw/English/cp_n_100874.html) from National Taiwan University, where I was advised by [Prof. Ta-Te Lin](https://ttlin.bime.ntu.edu.tw/team-%e5%9c%98%e9%9a%8a/). In addition to academic work, I have interned at NVIDIA (2024), Samsung AI Center (2023), and Apple (2021).
