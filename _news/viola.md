@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "[VioLA: Aligning Videos to 2D LiDAR Scans](https://samsunglabs.github.io/viola-project-page/)" has been accepted to ICRA 2024. This is a joint work with [Selim Engin](https://ksengin.github.io/) while I was an intern at Samsung Research America.
+Our paper, "[VioLA: Aligning Videos to 2D LiDAR Scans](https://giles200619.github.io/viola/)" has been accepted to ICRA 2024. This is a joint work with [Selim Engin](https://ksengin.github.io/) while I was an intern at Samsung Research America.
