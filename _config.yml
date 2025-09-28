@@ -9,6 +9,7 @@ last_name: Chao
 contact_note: > # You can even add a little note about which of these is the best way to reach you.
   
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Personal website of Jun-Jee Chao, a Ph.D. candidate in Computer Science at the University of Minnesota, working on 3D computer vision and robotics. 
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
