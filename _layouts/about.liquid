@@ -78,31 +78,43 @@ layout: default
         <a style="color: inherit">Experiences</a>
     </h2>
     <div class="experience-gallery">
-    <div class="experience-item">
-        <img src="{{ '/assets/img/meta.jpg' | relative_url }}" alt="Experience 1">
-        <p>Meta</p>
-        <p>Research Scientist</p>
-        <p>Dec., 2025 - Jan., 2026</p>
+      <div class="experience-item">
+          <img src="{{ '/assets/img/NVIDIA.jpg' | relative_url }}" alt="Experience 1"> 
+          <p>NVIDIA</p> 
+          <p>Software Engineer, XR</p> 
+          <p>Mar., 2026 - present</p> 
+      </div>
+      <div class="experience-item">
+          <img src="{{ '/assets/img/meta.jpg' | relative_url }}" alt="Experience 1"> 
+          <p>Meta</p> 
+          <p>Research Scientist</p> 
+          <p>Dec., 2025 - Mar., 2026</p> 
+      </div>
     </div>
-    <div class="experience-item">
-        <img src="{{ '/assets/img/NVIDIA.jpg' | relative_url }}" alt="Experience 1">
-        <p>NVIDIA</p>
-        <p>CloudXR Intern</p>
-        <p>June, 2024 - Jan., 2025</p>
+
+    <h2>
+        <a style="color: inherit">Prior Internships</a>
+    </h2>
+    <div class="experience-gallery">
+      <div class="experience-item">
+          <img src="{{ '/assets/img/NVIDIA.jpg' | relative_url }}" alt="Experience 1"> 
+          <p>NVIDIA</p> 
+          <p>CloudXR Intern</p> 
+          <p>June, 2024 - Jan., 2025</p> 
+      </div>
+      <div class="experience-item">
+          <img src="{{ '/assets/img/SRA.png' | relative_url }}" alt="Experience 2"> 
+          <p>Samsung Research America</p> 
+          <p>Research Scientist Intern</p> 
+          <p>June, 2023 - Dec., 2023</p> 
+      </div>
+      <div class="experience-item">
+          <img src="{{ '/assets/img/apple.jpg' | relative_url }}" alt="Experience 3"> 
+          <p>Apple</p> 
+          <p>Special Project Group Intern</p> 
+          <p>May, 2021 - Aug., 2021</p> 
+      </div>
     </div>
-    <div class="experience-item">
-        <img src="{{ '/assets/img/SRA.png' | relative_url }}" alt="Experience 2">
-        <p>Samsung Research America</p>
-        <p>Research Scientist Intern</p>
-        <p>June, 2023 - Dec., 2023</p>
-    </div>
-    <div class="experience-item">
-        <img src="{{ '/assets/img/apple.jpg' | relative_url }}" alt="Experience 3">
-        <p>Apple</p>
-        <p>Special Project Group Intern</p>
-        <p>May, 2021 - Aug., 2021</p>
-    </div>
-</div>
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
